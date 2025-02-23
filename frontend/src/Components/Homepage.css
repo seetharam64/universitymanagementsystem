@@ -12,6 +12,7 @@ body{
     height: auto;
     width: auto;
     padding-top: 20px;
+    color: #2C3E50;
 }
 .loginclass {
     display: flex;
@@ -69,6 +70,15 @@ a {
     font-weight: bold;
 }
 a:hover {
+    text-decoration: underline;
+}
+Link {
+    color: #3498DB;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+Link:hover {
     text-decoration: underline;
 }
   

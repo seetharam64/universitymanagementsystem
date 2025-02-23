@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import './Homepage.css'
 function Homepage(){
 return(
@@ -11,7 +12,7 @@ return(
         <label>Enter Password</label><br></br>
         <input type="password"></input><br></br>
         <button>Login</button><br></br>
-        <a href="">Forgot Password?</a><br></br>
+        <Link to="/navigation">Forgot Password?</Link>
         <a href="">New member!! register here!!</a><br></br>
     </div>
     </>
